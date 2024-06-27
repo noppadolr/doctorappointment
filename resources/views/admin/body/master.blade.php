@@ -67,12 +67,12 @@
                 <div class="content">
 
                     <!-- Start Content-->
-                {{-- @if (View::hasSection('content'))
+                @if (View::hasSection('content'))
                     @yield('content')
                 @elseif (isset($slot))
                     {{ $slot }}
-                @endif --}}
-                @yield('content')
+                @endif
+                {{-- @yield('content') --}}
 
 
                 </div> <!-- content -->
